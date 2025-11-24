@@ -53,6 +53,33 @@ body {
     text-align: center;
     background: #fff;
 }
+.project-section {
+    padding: 4rem 2rem;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.project-section h2 {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+ .card {
+    text-align: center;
+    width: 300px;
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.card-body{
+    text-align: center;
+    padding-top: 10px;
+}
 
 .contact {
     padding: 4rem 2rem;
@@ -101,6 +128,12 @@ footer {
     color: white;
     margin: 0 10px; /* Should be margin: 0 10px */
     text-decoration: none;
+}
+@media(max-width: 600px){
+    .footer{
+        width: 100%;
+        padding: 10px;
+    }
 }
 
 /* BUG: Missing Media Queries for Mobile Responsiveness */
